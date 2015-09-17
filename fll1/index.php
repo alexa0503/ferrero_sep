@@ -5,8 +5,8 @@ $domain = 'http://'.$_SERVER[HTTP_HOST];
 define('WECHAT_APPID','wx3978e56538c6ef7f');
 define('WECHAT_SECRET','83bc38882177448990ea14101ca7b78a');
 $wechat_share = array(
-	'title'=>'老师，我要给你点个赞。',
-	'desc' => '费列罗与你一起寄送甜蜜！',
+	'title'=>'臻心意 致师恩',
+	'desc' => '您的学生送来一份甜蜜的祝福',
 	'link' => $domain.'/fll1/index.php',
 	'imgUrl' => $domain.'/fll1/images/share.jpg'
 	);
@@ -18,7 +18,7 @@ $sign_package = $jssdk->getSignPackage();
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<title>臻心意 致师恩</title>
+	<title>臻心意 致恩师</title>
 	<link rel="stylesheet" href="css/common.css">
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/common.js"></script>
@@ -211,6 +211,9 @@ $sign_package = $jssdk->getSignPackage();
 	<a href="javascript:void(0);" onClick="conBmg();" class="musicBtn1 indexBtn2"><img src="images/musicBtn1.png" style="display:block; padding:20px;"></a>
 
 	<img src="images/shareNote.png" class="pop sharePop" style="display:none;" onClick="closePop();">
+    
+    <div class="popBg" style="display:none;"></div>
+    <img src="images/hsNote.png" class="pop popHs" style="display:none;">
 
 	<script>
 		$(document).ready(function(e){

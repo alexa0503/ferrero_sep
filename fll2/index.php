@@ -28,7 +28,7 @@ if( empty($data['toName']))
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<title>臻心意 致师恩</title>
+	<title>臻心意 报师恩</title>
 	<link rel="stylesheet" href="css/common.css">
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/common.js"></script>
@@ -203,6 +203,9 @@ if( empty($data['toName']))
 	<a href="javascript:void(0);" onClick="conBmg();" class="musicBtn1 indexBtn2"><img src="images/musicBtn1.png" style="display:block; padding:20px;"></a>
 
 	<img src="images/shareNote.png" class="pop sharePop" style="display:none;" onClick="closePop();">
+    
+    <div class="popBg" style="display:none;"></div>
+    <img src="images/hsNote.png" class="pop popHs" style="display:none;">
 
 	<script>
 		$(document).ready(function(e){
